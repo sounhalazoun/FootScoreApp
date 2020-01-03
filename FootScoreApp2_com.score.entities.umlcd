@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_yp1hwCn8Eem0TatTBvHGfA">
+  <modelElement href="FootScoreApp2.uml#_x7lUoCn8Eem0TatTBvHGfA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zbPJgCn8Eem0TatTBvHGfA" sourceAnchor="708.0,302.0" targetAnchor="480.0,0.0" target="_zdUNICn8Eem0TatTBvHGfA" source="_zbPJiSn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yXEWwCn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdnvJyn8Eem0TatTBvHGfA" position="350.0,350.0"/>
+    <nameVisual xmi:id="_zbPJgSn8Eem0TatTBvHGfA" text="">
+      <visualProperties xmi:id="_z40dYCn8Eem0TatTBvHGfA" position="2.0,-44.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zbPJgin8Eem0TatTBvHGfA" name="athletics" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yXDIoCn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z4zPQCn8Eem0TatTBvHGfA" position="2.0,34.0"/>
+      <stereotypes xmi:id="_zbPJgyn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yXDvsCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPJhCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPJhSn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zbPJhin8Eem0TatTBvHGfA" aggregationKind="NONE" name="club" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWFfdCn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z40dYSn8Eem0TatTBvHGfA" position="-46.0,-56.0"/>
+      <visibility xmi:id="_zbPJhyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPJiCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zbdL8Cn8Eem0TatTBvHGfA" sourceAnchor="0.0,128.0" targetAnchor="232.0,164.0" target="_zbdL-in8Eem0TatTBvHGfA" source="_zb0_aSn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yWPQVSn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdnvICn8Eem0TatTBvHGfA" position="210.0,210.0"/>
+    <bendpoints xmi:id="_z4peQCn8Eem0TatTBvHGfA" sourceX="-978" targetY="183"/>
+    <nameVisual xmi:id="_zbdL8Sn8Eem0TatTBvHGfA" text="">
+      <visualProperties xmi:id="_z42SkCn8Eem0TatTBvHGfA" position="1.0,-24.000000000000085"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zbdL8in8Eem0TatTBvHGfA" name="leagues" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWPQUSn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z41EcCn8Eem0TatTBvHGfA" position="-67.5,2.0"/>
+      <visibility xmi:id="_zbdL8yn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbdL9Cn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zbdL9Sn8Eem0TatTBvHGfA" aggregationKind="NONE" name="continent" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWPQVCn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z42SkSn8Eem0TatTBvHGfA" position="1.0,87.00000000000023"/>
+      <stereotypes xmi:id="_zbdL9in8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yWPQbSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbdL9yn8Eem0TatTBvHGfA" name="JoinColumns">
+        <modelElement href="FootScoreApp2.uml#_yWZBUCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbdL-Cn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbdL-Sn8Eem0TatTBvHGfA" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zbr1cCn8Eem0TatTBvHGfA" sourceAnchor="623.0,0.0" targetAnchor="297.0,256.0" target="_zb0_aSn8Eem0TatTBvHGfA" source="_zdUNICn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yWZBVin8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdnvISn8Eem0TatTBvHGfA" position="230.0,230.0"/>
+    <nameVisual xmi:id="_zbr1cSn8Eem0TatTBvHGfA" text="">
+      <visualProperties xmi:id="_z5AqoCn8Eem0TatTBvHGfA" position="2.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zbr1cin8Eem0TatTBvHGfA" name="clubs" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWZBUin8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z5ADkCn8Eem0TatTBvHGfA" position="-96.0,-116.14285714285734"/>
+      <visibility xmi:id="_zbr1dSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbr1dCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zbr1cyn8Eem0TatTBvHGfA" aggregationKind="NONE" name="league" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWZBVSn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z5AqoSn8Eem0TatTBvHGfA" position="-27.999999999999886,61.14285714285717"/>
+      <stereotypes xmi:id="_zbr1eSn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yXChkCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbr1ein8Eem0TatTBvHGfA" name="JoinColumns">
+        <modelElement href="FootScoreApp2.uml#_yXChkSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbr1eCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbr1dyn8Eem0TatTBvHGfA" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zb0_YCn8Eem0TatTBvHGfA" sourceAnchor="22.0,0.0" targetAnchor="334.0,256.0" target="_zb0_aSn8Eem0TatTBvHGfA" source="_zcH6bin8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yWZBWyn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdnvIin8Eem0TatTBvHGfA" position="250.0,250.0"/>
+    <nameVisual xmi:id="_zb0_YSn8Eem0TatTBvHGfA" text="">
+      <visualProperties xmi:id="_z43gsCn8Eem0TatTBvHGfA" position="-13.0,-10.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zb0_Yin8Eem0TatTBvHGfA" name="matchs" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWZBVyn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z425oCn8Eem0TatTBvHGfA" position="-104.0,-56.00000000000002"/>
+      <visibility xmi:id="_zb0_Yyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_ZCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zb0_ZSn8Eem0TatTBvHGfA" aggregationKind="NONE" name="league" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWZBWin8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z43gsSn8Eem0TatTBvHGfA" position="2.0,1.0"/>
+      <stereotypes xmi:id="_zb0_Zin8Eem0TatTBvHGfA" name="JoinColumns">
+        <modelElement href="FootScoreApp2.uml#_yWZBayn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_Zyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_aCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zb-wYCn8Eem0TatTBvHGfA" sourceAnchor="15.0,233.0" targetAnchor="653.0,0.0" target="_zdUNICn8Eem0TatTBvHGfA" source="_zcH6bin8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yWZBcyn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdnvIyn8Eem0TatTBvHGfA" position="270.0,270.0"/>
+    <nameVisual xmi:id="_zb-wYyn8Eem0TatTBvHGfA" text="">
+      <visualProperties xmi:id="_z44u0Cn8Eem0TatTBvHGfA" position="-13.0,37.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zb-wZCn8Eem0TatTBvHGfA" name="matchs" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWZBcSn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z44HwCn8Eem0TatTBvHGfA" position="41.0,1.0"/>
+      <stereotypes xmi:id="_zcH6Uin8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yXLrgCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcH6Uyn8Eem0TatTBvHGfA" name="JoinTable">
+        <modelElement href="FootScoreApp2.uml#_yXLrgSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6USn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6UCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zb-wZSn8Eem0TatTBvHGfA" name="clubs" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWZBbin8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z45V4Cn8Eem0TatTBvHGfA" position="-91.0,-56.0"/>
+      <visibility xmi:id="_zcH6VSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6VCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zb-wYSn8Eem0TatTBvHGfA" sourceAnchor="45.0,233.0" targetAnchor="683.0,0.0" target="_zdUNICn8Eem0TatTBvHGfA" source="_zcH6bin8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yXNgsCn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdnvKCn8Eem0TatTBvHGfA" position="370.0,370.0"/>
+    <nameVisual xmi:id="_zb-wZin8Eem0TatTBvHGfA" text="">
+      <visualProperties xmi:id="_z46kACn8Eem0TatTBvHGfA" position="2.0,37.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zb-wZyn8Eem0TatTBvHGfA" name="home_matchs" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yXM5oCn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z4588Cn8Eem0TatTBvHGfA" position="2.0,56.5"/>
+      <stereotypes xmi:id="_zcH6WSn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yXM5oin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6WCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6Vyn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zb-waCn8Eem0TatTBvHGfA" aggregationKind="NONE" name="home_team" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWZBdCn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z46kASn8Eem0TatTBvHGfA" position="-101.0,-136.5"/>
+      <visibility xmi:id="_zcH6Wyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6Win8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zb-wYin8Eem0TatTBvHGfA" sourceAnchor="307.0,233.0" targetAnchor="945.0,0.0" target="_zdUNICn8Eem0TatTBvHGfA" source="_zcH6bin8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yXOu0Cn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdnvKSn8Eem0TatTBvHGfA" position="390.0,390.0"/>
+    <nameVisual xmi:id="_zb-waSn8Eem0TatTBvHGfA" text="">
+      <visualProperties xmi:id="_z47yICn8Eem0TatTBvHGfA" position="2.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zb-wain8Eem0TatTBvHGfA" name="away_matchs" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yXOHwCn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z47LECn8Eem0TatTBvHGfA" position="2.0,1.0"/>
+      <stereotypes xmi:id="_zcH6YCn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yXOHwin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6Xyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6Xin8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zb-wayn8Eem0TatTBvHGfA" aggregationKind="NONE" name="away_team" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWiLQin8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z47yISn8Eem0TatTBvHGfA" position="-92.0,-56.0"/>
+      <visibility xmi:id="_zcH6Yin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6YSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zcH6ZSn8Eem0TatTBvHGfA" sourceAnchor="1029.0,0.0" targetAnchor="394.0,371.0" target="_zc4ISyn8Eem0TatTBvHGfA" source="_zcH6bin8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yW4wkCn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdnvJSn8Eem0TatTBvHGfA" position="310.0,310.0"/>
+    <nameVisual xmi:id="_zcH6Zin8Eem0TatTBvHGfA" text="">
+      <visualProperties xmi:id="_z49AQCn8Eem0TatTBvHGfA" position="-13.0,-22.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zcH6Zyn8Eem0TatTBvHGfA" name="matchs" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yW3icyn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z48ZMCn8Eem0TatTBvHGfA" position="-65.0,-56.00000000000001"/>
+      <stereotypes xmi:id="_zcH6aCn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yW4JgCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6aSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6ain8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zcH6ayn8Eem0TatTBvHGfA" aggregationKind="NONE" name="stadium" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWZBbCn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z49nUCn8Eem0TatTBvHGfA" position="2.0,1.0000000000000284"/>
+      <visibility xmi:id="_zcH6bCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6bSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zcbcUCn8Eem0TatTBvHGfA" sourceAnchor="225.0,70.0" targetAnchor="247.0,187.0" target="_zcuXQCn8Eem0TatTBvHGfA" source="_zcbcWin8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yWiLVSn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdnvJCn8Eem0TatTBvHGfA" position="290.0,290.0"/>
+    <bendpoints xmi:id="_z4peQSn8Eem0TatTBvHGfA" sourceX="772" targetY="125"/>
+    <nameVisual xmi:id="_zcbcUSn8Eem0TatTBvHGfA" text="">
+      <visualProperties xmi:id="_z4-1cCn8Eem0TatTBvHGfA" position="-12.0,-23.499999999999773"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zcbcUin8Eem0TatTBvHGfA" name="role" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWiLUyn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z4-OYCn8Eem0TatTBvHGfA" position="1.5,-56.5"/>
+      <stereotypes xmi:id="_zcbcUyn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yWr8RCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcbcVCn8Eem0TatTBvHGfA" name="JoinTable">
+        <modelElement href="FootScoreApp2.uml#_yWr8RSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcbcVSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcbcVin8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zcbcVyn8Eem0TatTBvHGfA" name="user" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yWiLUCn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z4_cgCn8Eem0TatTBvHGfA" position="2.0,0.9999999999999432"/>
+      <visibility xmi:id="_zcbcWCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcbcWSn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zc4IQCn8Eem0TatTBvHGfA" sourceAnchor="960.0,312.0" targetAnchor="787.0,186.0" target="_zc4ISyn8Eem0TatTBvHGfA" source="_zdUNICn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yW6lwCn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdnvJin8Eem0TatTBvHGfA" position="330.0,330.0"/>
+    <bendpoints xmi:id="_z4peQin8Eem0TatTBvHGfA" sourceX="1350" targetX="250" targetY="1083"/>
+    <bendpoints xmi:id="_z4peQyn8Eem0TatTBvHGfA" sourceX="1350" sourceY="-1083" targetX="250"/>
+    <nameVisual xmi:id="_zc4IQSn8Eem0TatTBvHGfA" text="">
+      <visualProperties xmi:id="_z5Cf0Cn8Eem0TatTBvHGfA" position="-12.0,-500.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zc4IQin8Eem0TatTBvHGfA" name="clubs" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yW5XoCn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z5B4wCn8Eem0TatTBvHGfA" position="1.0,-57.0"/>
+      <visibility xmi:id="_zc4IRSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4IRCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zc4IQyn8Eem0TatTBvHGfA" aggregationKind="NONE" name="stadium" navigable="true">
+      <modelElement href="FootScoreApp2.uml#_yW5-sCn8Eem0TatTBvHGfA"/>
+      <visualProperties xmi:id="_z5Cf0Sn8Eem0TatTBvHGfA" position="1.5,-57.49999999999977"/>
+      <stereotypes xmi:id="_zc4ISSn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yXFk4Cn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zc4ISin8Eem0TatTBvHGfA" name="JoinColumns">
+        <modelElement href="FootScoreApp2.uml#_yXFk4Sn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4ISCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4IRyn8Eem0TatTBvHGfA" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zbPJiSn8Eem0TatTBvHGfA" name="Athletic" associationsOut="_zbPJgCn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yDPb0Cn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zbPwkCn8Eem0TatTBvHGfA" position="80.0,49.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zbPwkSn8Eem0TatTBvHGfA" name="JPA1StyledElement">
+      <modelElement href="FootScoreApp2.uml#_yDRRACn8Eem0TatTBvHGfA"/>
+    </stereotypes>
+    <visibility xmi:id="_zbPwkin8Eem0TatTBvHGfA" label="+"/>
+    <attributes xmi:id="_zbPwkyn8Eem0TatTBvHGfA" name="id_athletic">
+      <modelElement href="FootScoreApp2.uml#_yV8Vgyn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbPwlCn8Eem0TatTBvHGfA" name="PrimaryKey">
+        <modelElement href="FootScoreApp2.uml#_yV8VhCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbPwlSn8Eem0TatTBvHGfA" name="GeneratedValueMapping">
+        <modelElement href="FootScoreApp2.uml#_yV8VhSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPwlin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPwlyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zbPwmCn8Eem0TatTBvHGfA" name="Long">
+        <modelElement href="FootScoreApp2.uml#_yR0DUSn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zbPwmSn8Eem0TatTBvHGfA" name="name_athletic">
+      <modelElement href="FootScoreApp2.uml#_yWFfUCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbPwmin8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWFfUSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbPwmyn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yWFfUin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPwnCn8Eem0TatTBvHGfA" label="-"/>
+      <cardinality xmi:id="_zbPwnSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zbPwnin8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zbPwnyn8Eem0TatTBvHGfA" name="date_birth">
+      <modelElement href="FootScoreApp2.uml#_yWFfWCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbPwoCn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWFfWSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbPwoSn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yWFfWin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPwoin8Eem0TatTBvHGfA" label="-"/>
+      <cardinality xmi:id="_zbPwoyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zbPwpCn8Eem0TatTBvHGfA" name="Date">
+        <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zbPwpSn8Eem0TatTBvHGfA" name="nationality">
+      <modelElement href="FootScoreApp2.uml#_yWFfYCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbPwpin8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWFfYSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbPwpyn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yWFfZin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPwqCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPwqSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zbPwqin8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zbPwqyn8Eem0TatTBvHGfA" name="position">
+      <modelElement href="FootScoreApp2.uml#_yWFfain8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbPwrCn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWFfayn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbPwrSn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yWFfcCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPwrin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPwryn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zbPwsCn8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zbPwsSn8Eem0TatTBvHGfA" name="club">
+      <modelElement href="FootScoreApp2.uml#_yWFfdCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbPwsin8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yWFfdSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbPwsyn8Eem0TatTBvHGfA" name="JoinColumns">
+        <modelElement href="FootScoreApp2.uml#_yWFfdin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPwtCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPwtSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zbPwtin8Eem0TatTBvHGfA" name="Club">
+        <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zbPwtyn8Eem0TatTBvHGfA" name="Athletic">
+      <modelElement href="FootScoreApp2.uml#_yDTtQCn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zbPwuCn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zbPwuSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yDUUUin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPwuin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPwuyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zbPwvCn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yDUUUSn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zbPwvSn8Eem0TatTBvHGfA" name="Athletic">
+          <modelElement href="FootScoreApp2.uml#_yDPb0Cn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zbPwvin8Eem0TatTBvHGfA" name="getName_athletic">
+      <modelElement href="FootScoreApp2.uml#_yDVicCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbPwvyn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yDWJgCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPwwCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPwwSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zbPwwin8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yDVicSn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zbPwwyn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zbPwxCn8Eem0TatTBvHGfA" name="setName_athletic">
+      <modelElement href="FootScoreApp2.uml#_yDWJgSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbPwxSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yDWwkCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPwxin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPwxyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zbPwyCn8Eem0TatTBvHGfA" name="name_athletic">
+        <modelElement href="FootScoreApp2.uml#_yDWJgin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zbPwySn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zbPwyin8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zbPwyyn8Eem0TatTBvHGfA" name="getDate_birth">
+      <modelElement href="FootScoreApp2.uml#_yDWwkSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbPwzCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yDXXoCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPwzSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPwzin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zbPwzyn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yUUkwCn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zbPw0Cn8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zbPw0Sn8Eem0TatTBvHGfA" name="Athletic">
+      <modelElement href="FootScoreApp2.uml#_yUSvkCn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zbPw0in8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zbPw0yn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yUT9sin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPw1Cn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPw1Sn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zbPw1in8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yUT9sSn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zbPw1yn8Eem0TatTBvHGfA" name="Athletic">
+          <modelElement href="FootScoreApp2.uml#_yDPb0Cn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zbPw2Cn8Eem0TatTBvHGfA" name="name_athletic">
+        <modelElement href="FootScoreApp2.uml#_yUSvkSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zbPw2Sn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zbPw2in8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zbPw2yn8Eem0TatTBvHGfA" name="date_birth">
+        <modelElement href="FootScoreApp2.uml#_yUTWoCn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zbPw3Cn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zbPw3Sn8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zbPw3in8Eem0TatTBvHGfA" name="nationality">
+        <modelElement href="FootScoreApp2.uml#_yUTWoSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zbPw3yn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zbPw4Cn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zbPw4Sn8Eem0TatTBvHGfA" name="position">
+        <modelElement href="FootScoreApp2.uml#_yUTWoin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zbPw4in8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zbPw4yn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zbPw5Cn8Eem0TatTBvHGfA" name="club">
+        <modelElement href="FootScoreApp2.uml#_yUTWoyn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zbPw5Sn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zbPw5in8Eem0TatTBvHGfA" name="Club">
+          <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zbPw5yn8Eem0TatTBvHGfA" name="setDate_birth">
+      <modelElement href="FootScoreApp2.uml#_yUVL0Cn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbPw6Cn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yUVL0in8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbPw6Sn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbPw6in8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zbPw6yn8Eem0TatTBvHGfA" name="date_birth">
+        <modelElement href="FootScoreApp2.uml#_yUVL0Sn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zbPw7Cn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zbPw7Sn8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zbdL-in8Eem0TatTBvHGfA" name="Continent" associationsIn="_zbdL8Cn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yDf6gCn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zbdL-yn8Eem0TatTBvHGfA" position="-576.0,-512.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zbdL_Cn8Eem0TatTBvHGfA" name="JPA1StyledElement">
+      <modelElement href="FootScoreApp2.uml#_yDghkCn8Eem0TatTBvHGfA"/>
+    </stereotypes>
+    <visibility xmi:id="_zbdL_Sn8Eem0TatTBvHGfA" label="+"/>
+    <attributes xmi:id="_zbdL_in8Eem0TatTBvHGfA" name="id_continent">
+      <modelElement href="FootScoreApp2.uml#_yWFfdyn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbdL_yn8Eem0TatTBvHGfA" name="PrimaryKey">
+        <modelElement href="FootScoreApp2.uml#_yWFfeCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbdMACn8Eem0TatTBvHGfA" name="GeneratedValueMapping">
+        <modelElement href="FootScoreApp2.uml#_yWFfeSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbdMASn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbdMAin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zbdMAyn8Eem0TatTBvHGfA" name="Long">
+        <modelElement href="FootScoreApp2.uml#_yR0DUSn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zbdMBCn8Eem0TatTBvHGfA" name="name_continent">
+      <modelElement href="FootScoreApp2.uml#_yWFfein8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbdMBSn8Eem0TatTBvHGfA" name="NotNull">
+        <modelElement href="FootScoreApp2.uml#_yWFfeyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbdMBin8Eem0TatTBvHGfA" name="Size">
+        <modelElement href="FootScoreApp2.uml#_yWFffCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbdMByn8Eem0TatTBvHGfA" name="Column">
+        <modelElement href="FootScoreApp2.uml#_yWPQUCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbdMCCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbdMCSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zbdMCin8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zbdMCyn8Eem0TatTBvHGfA" name="leagues">
+      <modelElement href="FootScoreApp2.uml#_yWPQUSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zbdMDCn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yWPQUyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbdMDSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbdMDin8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zbdMDyn8Eem0TatTBvHGfA" name="League">
+        <modelElement href="FootScoreApp2.uml#_yDodYCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zbdMECn8Eem0TatTBvHGfA" name="Continent">
+      <modelElement href="FootScoreApp2.uml#_yDhvsCn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zbdMESn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zbdMEin8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yDiWwyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbdMEyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbdMFCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zbdMFSn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yDiWwin8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zbdMFin8Eem0TatTBvHGfA" name="Continent">
+          <modelElement href="FootScoreApp2.uml#_yDf6gCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zbdMFyn8Eem0TatTBvHGfA" name="Continent">
+      <modelElement href="FootScoreApp2.uml#_yDjk4Cn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zbdMGCn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zbdMGSn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yDkL8Sn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbdMGin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbdMGyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zbdMHCn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yDkL8in8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zbdMHSn8Eem0TatTBvHGfA" name="Continent">
+          <modelElement href="FootScoreApp2.uml#_yDf6gCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zbdMHin8Eem0TatTBvHGfA" name="name_continent">
+        <modelElement href="FootScoreApp2.uml#_yDjk4Sn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zbdMHyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zbdMICn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zbdMISn8Eem0TatTBvHGfA" name="Continent">
+      <modelElement href="FootScoreApp2.uml#_yUY2MCn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zbdMIin8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zbdMIyn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yUY2Nin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zbdMJCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zbdMJSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zbdMJin8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yUY2NSn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zbdMJyn8Eem0TatTBvHGfA" name="Continent">
+          <modelElement href="FootScoreApp2.uml#_yDf6gCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zbdMKCn8Eem0TatTBvHGfA" name="name_continent">
+        <modelElement href="FootScoreApp2.uml#_yUY2MSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zbdMKSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zbdMKin8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zbdMKyn8Eem0TatTBvHGfA" name="leagues">
+        <modelElement href="FootScoreApp2.uml#_yUY2Min8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zbdMLCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zbdMLSn8Eem0TatTBvHGfA" name="List">
+          <modelElement href="FootScoreApp2.uml#_yMuvASn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zb0_aSn8Eem0TatTBvHGfA" name="League" associationsIn="_zbr1cCn8Eem0TatTBvHGfA _zb0_YCn8Eem0TatTBvHGfA" associationsOut="_zbdL8Cn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yDodYCn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zb0_ain8Eem0TatTBvHGfA" position="634.0,-293.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zb0_ayn8Eem0TatTBvHGfA" name="JPA1StyledElement">
+      <modelElement href="FootScoreApp2.uml#_yDpEcCn8Eem0TatTBvHGfA"/>
+    </stereotypes>
+    <visibility xmi:id="_zb0_bCn8Eem0TatTBvHGfA" label="+"/>
+    <attributes xmi:id="_zb0_bSn8Eem0TatTBvHGfA" name="continent">
+      <modelElement href="FootScoreApp2.uml#_yWPQVCn8Eem0TatTBvHGfA"/>
+      <visibility xmi:id="_zb0_bin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_byn8Eem0TatTBvHGfA" label="0..1" max="1"/>
+      <type xmi:id="_zb0_cCn8Eem0TatTBvHGfA" name="Continent">
+        <modelElement href="FootScoreApp2.uml#_yDf6gCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zb0_cSn8Eem0TatTBvHGfA" name="id_league">
+      <modelElement href="FootScoreApp2.uml#_yWPQVin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zb0_cin8Eem0TatTBvHGfA" name="PrimaryKey">
+        <modelElement href="FootScoreApp2.uml#_yWPQVyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zb0_cyn8Eem0TatTBvHGfA" name="GeneratedValueMapping">
+        <modelElement href="FootScoreApp2.uml#_yWPQWCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_dCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_dSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zb0_din8Eem0TatTBvHGfA" name="Long">
+        <modelElement href="FootScoreApp2.uml#_yR0DUSn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zb0_dyn8Eem0TatTBvHGfA" name="name_league">
+      <modelElement href="FootScoreApp2.uml#_yWPQWSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zb0_eCn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWPQWin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zb0_eSn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yWPQWyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_ein8Eem0TatTBvHGfA" label="-"/>
+      <cardinality xmi:id="_zb0_eyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zb0_fCn8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zb0_fSn8Eem0TatTBvHGfA" name="nbr_club">
+      <modelElement href="FootScoreApp2.uml#_yWPQYSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zb0_fin8Eem0TatTBvHGfA" name="NotNull">
+        <modelElement href="FootScoreApp2.uml#_yWPQYin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_fyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_gCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zb0_gSn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zb0_gin8Eem0TatTBvHGfA" name="country">
+      <modelElement href="FootScoreApp2.uml#_yWPQYyn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zb0_gyn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWPQZCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zb0_hCn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yWPQaSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_hSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_hin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zb0_hyn8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zb0_iCn8Eem0TatTBvHGfA" name="clubs">
+      <modelElement href="FootScoreApp2.uml#_yWZBUin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zb0_iSn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yWZBVCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_iin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_iyn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zb0_jCn8Eem0TatTBvHGfA" name="Club">
+        <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zb0_jSn8Eem0TatTBvHGfA" name="matchs">
+      <modelElement href="FootScoreApp2.uml#_yWZBVyn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zb0_jin8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yWZBWSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_jyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_kCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zb0_kSn8Eem0TatTBvHGfA" name="Matche">
+        <modelElement href="FootScoreApp2.uml#_yD6KMCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zb0_kin8Eem0TatTBvHGfA" name="League">
+      <modelElement href="FootScoreApp2.uml#_yDrgsCn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zb0_kyn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zb0_lCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yDsHwCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_lSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_lin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zb0_lyn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yDrgsyn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zb0_mCn8Eem0TatTBvHGfA" name="League">
+          <modelElement href="FootScoreApp2.uml#_yDodYCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zb0_mSn8Eem0TatTBvHGfA" name="League">
+      <modelElement href="FootScoreApp2.uml#_yDsu0Cn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zb0_min8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zb0_myn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yDtV4in8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_nCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_nSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zb0_nin8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yDtV4yn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zb0_nyn8Eem0TatTBvHGfA" name="League">
+          <modelElement href="FootScoreApp2.uml#_yDodYCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zb0_oCn8Eem0TatTBvHGfA" name="name_league">
+        <modelElement href="FootScoreApp2.uml#_yDsu0Sn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zb0_oSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zb0_oin8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zb0_oyn8Eem0TatTBvHGfA" name="nbr_club">
+        <modelElement href="FootScoreApp2.uml#_yDsu0in8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zb0_pCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zb0_pSn8Eem0TatTBvHGfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zb0_pin8Eem0TatTBvHGfA" name="country">
+        <modelElement href="FootScoreApp2.uml#_yDsu0yn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zb0_pyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zb0_qCn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zb0_qSn8Eem0TatTBvHGfA" name="getName_league">
+      <modelElement href="FootScoreApp2.uml#_yDvyICn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zb0_qin8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yDy1cCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_qyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_rCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zb0_rSn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yDvyISn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zb0_rin8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zb0_ryn8Eem0TatTBvHGfA" name="setName_league">
+      <modelElement href="FootScoreApp2.uml#_yDzcgCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zb0_sCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yDzcgin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_sSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_sin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zb0_syn8Eem0TatTBvHGfA" name="name_league">
+        <modelElement href="FootScoreApp2.uml#_yDzcgSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zb0_tCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zb0_tSn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zb0_tin8Eem0TatTBvHGfA" name="League">
+      <modelElement href="FootScoreApp2.uml#_yQB6oCn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zb0_tyn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zb0_uCn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yQChtCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zb0_uSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zb0_uin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zb0_uyn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yQDIwCn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zb0_vCn8Eem0TatTBvHGfA" name="League">
+          <modelElement href="FootScoreApp2.uml#_yDodYCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zb0_vSn8Eem0TatTBvHGfA" name="name_league">
+        <modelElement href="FootScoreApp2.uml#_yQB6oSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zb0_vin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zb0_vyn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zb0_wCn8Eem0TatTBvHGfA" name="nbr_club">
+        <modelElement href="FootScoreApp2.uml#_yQB6oin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zb0_wSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zb0_win8Eem0TatTBvHGfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zb0_wyn8Eem0TatTBvHGfA" name="country">
+        <modelElement href="FootScoreApp2.uml#_yQChsCn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zb0_xCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zb0_xSn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zb0_xin8Eem0TatTBvHGfA" name="continent">
+        <modelElement href="FootScoreApp2.uml#_yQChsSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zb0_xyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zb0_yCn8Eem0TatTBvHGfA" name="Continent">
+          <modelElement href="FootScoreApp2.uml#_yDf6gCn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zcbcWin8Eem0TatTBvHGfA" name="Role" associationsOut="_zcbcUCn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yEIMoCn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zcbcWyn8Eem0TatTBvHGfA" position="1359.0,357.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zcbcXCn8Eem0TatTBvHGfA" name="JPA1StyledElement">
+      <modelElement href="FootScoreApp2.uml#_yEJawCn8Eem0TatTBvHGfA"/>
+    </stereotypes>
+    <visibility xmi:id="_zcbcXSn8Eem0TatTBvHGfA" label="+"/>
+    <attributes xmi:id="_zcbcXin8Eem0TatTBvHGfA" name="id_role">
+      <modelElement href="FootScoreApp2.uml#_yWiLSyn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcbcXyn8Eem0TatTBvHGfA" name="PrimaryKey">
+        <modelElement href="FootScoreApp2.uml#_yWiLTCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcbcYCn8Eem0TatTBvHGfA" name="GeneratedValueMapping">
+        <modelElement href="FootScoreApp2.uml#_yWiLTSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcbcYSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcbcYin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcbcYyn8Eem0TatTBvHGfA" name="Long">
+        <modelElement href="FootScoreApp2.uml#_yR0DUSn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcbcZCn8Eem0TatTBvHGfA" name="role">
+      <modelElement href="FootScoreApp2.uml#_yWiLTin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcbcZSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWiLTyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcbcZin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcbcZyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcbcaCn8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcbcaSn8Eem0TatTBvHGfA" name="user">
+      <modelElement href="FootScoreApp2.uml#_yWiLUCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcbcain8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yWiLUin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcbcayn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcbcbCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zcbcbSn8Eem0TatTBvHGfA" name="User">
+        <modelElement href="FootScoreApp2.uml#_yESksCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zcbcbin8Eem0TatTBvHGfA" name="Role">
+      <modelElement href="FootScoreApp2.uml#_yEKB0Cn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zcbcbyn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zcbccCn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yEKo4Cn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcbccSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcbccin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zcbccyn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yEKo4Sn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zcbcdCn8Eem0TatTBvHGfA" name="Role">
+          <modelElement href="FootScoreApp2.uml#_yEIMoCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zcbcdSn8Eem0TatTBvHGfA" name="Role">
+      <modelElement href="FootScoreApp2.uml#_yELP8Cn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zcbcdin8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zcbcdyn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yEL3ACn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcbceCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcbceSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zcbcein8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yELP9Cn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zcbceyn8Eem0TatTBvHGfA" name="Role">
+          <modelElement href="FootScoreApp2.uml#_yEIMoCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zcbcfCn8Eem0TatTBvHGfA" name="role">
+        <modelElement href="FootScoreApp2.uml#_yELP8Sn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcbcfSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcbcfin8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zcuXQCn8Eem0TatTBvHGfA" name="User" associationsIn="_zcbcUCn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yESksCn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zcuXQSn8Eem0TatTBvHGfA" position="2109.0,115.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zcuXQin8Eem0TatTBvHGfA" name="JPA1StyledElement">
+      <modelElement href="FootScoreApp2.uml#_yETy0Cn8Eem0TatTBvHGfA"/>
+    </stereotypes>
+    <visibility xmi:id="_zcuXQyn8Eem0TatTBvHGfA" label="+"/>
+    <attributes xmi:id="_zcuXRCn8Eem0TatTBvHGfA" name="role">
+      <modelElement href="FootScoreApp2.uml#_yWiLUyn8Eem0TatTBvHGfA"/>
+      <visibility xmi:id="_zcuXRSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcuXRin8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zcuXRyn8Eem0TatTBvHGfA" name="Role">
+        <modelElement href="FootScoreApp2.uml#_yEIMoCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcuXSCn8Eem0TatTBvHGfA" name="login">
+      <modelElement href="FootScoreApp2.uml#_yWiLWSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcuXSSn8Eem0TatTBvHGfA" name="PrimaryKey">
+        <modelElement href="FootScoreApp2.uml#_yWiLWin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcuXSin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcuXSyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcuXTCn8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcuXTSn8Eem0TatTBvHGfA" name="password">
+      <modelElement href="FootScoreApp2.uml#_yWr8QCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcuXTin8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWr8QSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcuXTyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcuXUCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcuXUSn8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcuXUin8Eem0TatTBvHGfA" name="active">
+      <modelElement href="FootScoreApp2.uml#_yWr8Qin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcuXUyn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWr8Qyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcuXVCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcuXVSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcuXVin8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zcuXVyn8Eem0TatTBvHGfA" name="User">
+      <modelElement href="FootScoreApp2.uml#_yEUZ4Cn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zcuXWCn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zcuXWSn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yEVA8in8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcuXWin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcuXWyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zcuXXCn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yEVA8yn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zcuXXSn8Eem0TatTBvHGfA" name="User">
+          <modelElement href="FootScoreApp2.uml#_yESksCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zcuXXin8Eem0TatTBvHGfA" name="User">
+      <modelElement href="FootScoreApp2.uml#_yEVoACn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zcuXXyn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zcuXYCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yEWPFCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcuXYSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcuXYin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zcuXYyn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yEWPEyn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zcuXZCn8Eem0TatTBvHGfA" name="User">
+          <modelElement href="FootScoreApp2.uml#_yESksCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zcuXZSn8Eem0TatTBvHGfA" name="login">
+        <modelElement href="FootScoreApp2.uml#_yEVoASn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcuXZin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcuXZyn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcuXaCn8Eem0TatTBvHGfA" name="password">
+        <modelElement href="FootScoreApp2.uml#_yEVoAin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcuXaSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcuXain8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcuXayn8Eem0TatTBvHGfA" name="active">
+        <modelElement href="FootScoreApp2.uml#_yEWPECn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcuXbCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcuXbSn8Eem0TatTBvHGfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zcuXbin8Eem0TatTBvHGfA" name="User">
+      <modelElement href="FootScoreApp2.uml#_yU4lcCn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zcuXbyn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zcuXcCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yU5zkCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcuXcSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcuXcin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zcuXcyn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yU5MhSn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zcuXdCn8Eem0TatTBvHGfA" name="User">
+          <modelElement href="FootScoreApp2.uml#_yESksCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zcuXdSn8Eem0TatTBvHGfA" name="login">
+        <modelElement href="FootScoreApp2.uml#_yU4lcSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcuXdin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcuXdyn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcuXeCn8Eem0TatTBvHGfA" name="password">
+        <modelElement href="FootScoreApp2.uml#_yU5MgCn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcuXeSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcuXein8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcuXeyn8Eem0TatTBvHGfA" name="active">
+        <modelElement href="FootScoreApp2.uml#_yU5MgSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcuXfCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcuXfSn8Eem0TatTBvHGfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcuXfin8Eem0TatTBvHGfA" name="role">
+        <modelElement href="FootScoreApp2.uml#_yU5Mgin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcuXfyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcuXgCn8Eem0TatTBvHGfA" name="List">
+          <modelElement href="FootScoreApp2.uml#_yMuvASn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zc4ISyn8Eem0TatTBvHGfA" name="Stadium" associationsIn="_zcH6ZSn8Eem0TatTBvHGfA _zc4IQCn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yEuCgCn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zc4ITCn8Eem0TatTBvHGfA" position="1581.0,-516.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zc4ITSn8Eem0TatTBvHGfA" name="JPA1StyledElement">
+      <modelElement href="FootScoreApp2.uml#_yEy7ACn8Eem0TatTBvHGfA"/>
+    </stereotypes>
+    <visibility xmi:id="_zc4ITin8Eem0TatTBvHGfA" label="+"/>
+    <attributes xmi:id="_zc4ITyn8Eem0TatTBvHGfA" name="id_stadium">
+      <modelElement href="FootScoreApp2.uml#_yWr8Rin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4IUCn8Eem0TatTBvHGfA" name="PrimaryKey">
+        <modelElement href="FootScoreApp2.uml#_yWr8Ryn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zc4IUSn8Eem0TatTBvHGfA" name="GeneratedValueMapping">
+        <modelElement href="FootScoreApp2.uml#_yWr8SCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4IUin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4IUyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zc4IVCn8Eem0TatTBvHGfA" name="Long">
+        <modelElement href="FootScoreApp2.uml#_yR0DUSn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zc4IVSn8Eem0TatTBvHGfA" name="name_stadium">
+      <modelElement href="FootScoreApp2.uml#_yWr8SSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4IVin8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWr8Sin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zc4IVyn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yWr8Syn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4IWCn8Eem0TatTBvHGfA" label="-"/>
+      <cardinality xmi:id="_zc4IWSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zc4IWin8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zc4IWyn8Eem0TatTBvHGfA" name="location">
+      <modelElement href="FootScoreApp2.uml#_yWr8USn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4IXCn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWr8Uin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zc4IXSn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yWr8Vyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4IXin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4IXyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zc4IYCn8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zc4IYSn8Eem0TatTBvHGfA" name="owner">
+      <modelElement href="FootScoreApp2.uml#_yWr8Wyn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4IYin8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWr8XCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zc4IYyn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yWr8XSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4IZCn8Eem0TatTBvHGfA" label="-"/>
+      <cardinality xmi:id="_zc4IZSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zc4IZin8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zc4IZyn8Eem0TatTBvHGfA" name="capacity">
+      <modelElement href="FootScoreApp2.uml#_yW1GMin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4IaCn8Eem0TatTBvHGfA" name="NotNull">
+        <modelElement href="FootScoreApp2.uml#_yW1GMyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4IaSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4Iain8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zc4Iayn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zc4IbCn8Eem0TatTBvHGfA" name="built_stadium">
+      <modelElement href="FootScoreApp2.uml#_yW2UUCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4IbSn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yW27YCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zc4Ibin8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yW27YSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4Ibyn8Eem0TatTBvHGfA" label="-"/>
+      <cardinality xmi:id="_zc4IcCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zc4IcSn8Eem0TatTBvHGfA" name="Date">
+        <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zc4Icin8Eem0TatTBvHGfA" name="matchs">
+      <modelElement href="FootScoreApp2.uml#_yW3icyn8Eem0TatTBvHGfA"/>
+      <visibility xmi:id="_zc4Icyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4IdCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zc4IdSn8Eem0TatTBvHGfA" name="Matche">
+        <modelElement href="FootScoreApp2.uml#_yD6KMCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zc4Idin8Eem0TatTBvHGfA" name="clubs">
+      <modelElement href="FootScoreApp2.uml#_yW5XoCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4Idyn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yW5Xoin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4IeCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4IeSn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zc4Iein8Eem0TatTBvHGfA" name="Club">
+        <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zc4Ieyn8Eem0TatTBvHGfA" name="Stadium">
+      <modelElement href="FootScoreApp2.uml#_yE1XQCn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zc4IfCn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zc4IfSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yE1-UCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4Ifin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4Ifyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zc4IgCn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yE1XQyn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zc4IgSn8Eem0TatTBvHGfA" name="Stadium">
+          <modelElement href="FootScoreApp2.uml#_yEuCgCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zc4Igin8Eem0TatTBvHGfA" name="getName_stadium">
+      <modelElement href="FootScoreApp2.uml#_yF2q8Cn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4Igyn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yF3SACn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4IhCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4IhSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zc4Ihin8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yF2q8Sn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zc4Ihyn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zc4IiCn8Eem0TatTBvHGfA" name="setName_stadium">
+      <modelElement href="FootScoreApp2.uml#_yF3SASn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4IiSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yF3SAyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4Iiin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4Iiyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zc4IjCn8Eem0TatTBvHGfA" name="name_stadium">
+        <modelElement href="FootScoreApp2.uml#_yF3SAin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zc4IjSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc4Ijin8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zc4Ijyn8Eem0TatTBvHGfA" name="getOwner">
+      <modelElement href="FootScoreApp2.uml#_yF3SBCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4IkCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yF3SBin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4IkSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4Ikin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zc4Ikyn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yF3SBSn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zc4IlCn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zc4IlSn8Eem0TatTBvHGfA" name="setOwner">
+      <modelElement href="FootScoreApp2.uml#_yF3SByn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4Ilin8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yF3SCSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4Ilyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4ImCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zc4ImSn8Eem0TatTBvHGfA" name="owner">
+        <modelElement href="FootScoreApp2.uml#_yF3SCCn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zc4Imin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc4Imyn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zc4InCn8Eem0TatTBvHGfA" name="getBuilt_stadium">
+      <modelElement href="FootScoreApp2.uml#_yF3SCin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4InSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yF3SCyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4Inin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4Inyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zc4IoCn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yVfpfCn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zc4IoSn8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zc4Ioin8Eem0TatTBvHGfA" name="Stadium">
+      <modelElement href="FootScoreApp2.uml#_yVfpcin8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zc4Ioyn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zc4IpCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yVfpeyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4IpSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4Ipin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zc4Ipyn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yVfpein8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zc4IqCn8Eem0TatTBvHGfA" name="Stadium">
+          <modelElement href="FootScoreApp2.uml#_yEuCgCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zc4IqSn8Eem0TatTBvHGfA" name="name_stadium">
+        <modelElement href="FootScoreApp2.uml#_yVfpcyn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zc4Iqin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc4Iqyn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zc4IrCn8Eem0TatTBvHGfA" name="location">
+        <modelElement href="FootScoreApp2.uml#_yVfpdCn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zc4IrSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc4Irin8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zc4Iryn8Eem0TatTBvHGfA" name="owner">
+        <modelElement href="FootScoreApp2.uml#_yVfpdSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zc4IsCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc4IsSn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zc4Isin8Eem0TatTBvHGfA" name="capacity">
+        <modelElement href="FootScoreApp2.uml#_yVfpdin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zc4Isyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc4ItCn8Eem0TatTBvHGfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zc4ItSn8Eem0TatTBvHGfA" name="built_stadium">
+        <modelElement href="FootScoreApp2.uml#_yVfpdyn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zc4Itin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc4Ityn8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zc4IuCn8Eem0TatTBvHGfA" name="setBuilt_stadium">
+      <modelElement href="FootScoreApp2.uml#_yVfpfSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zc4IuSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yVfpfyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc4Iuin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zc4Iuyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zc4IvCn8Eem0TatTBvHGfA" name="built_stadium">
+        <modelElement href="FootScoreApp2.uml#_yVfpfin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zc4IvSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc4Ivin8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zdUNICn8Eem0TatTBvHGfA" name="Club" associationsIn="_zb-wYCn8Eem0TatTBvHGfA _zbPJgCn8Eem0TatTBvHGfA _zb-wYSn8Eem0TatTBvHGfA _zb-wYin8Eem0TatTBvHGfA" associationsOut="_zbr1cCn8Eem0TatTBvHGfA _zc4IQCn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zdUNISn8Eem0TatTBvHGfA" position="308.0,441.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zdUNIin8Eem0TatTBvHGfA" name="JPA1StyledElement">
+      <modelElement href="FootScoreApp2.uml#_yGBDASn8Eem0TatTBvHGfA"/>
+    </stereotypes>
+    <visibility xmi:id="_zdUNIyn8Eem0TatTBvHGfA" label="+"/>
+    <attributes xmi:id="_zdUNJCn8Eem0TatTBvHGfA" name="league">
+      <modelElement href="FootScoreApp2.uml#_yWZBVSn8Eem0TatTBvHGfA"/>
+      <visibility xmi:id="_zdUNJSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNJin8Eem0TatTBvHGfA" label="0..1" max="1"/>
+      <type xmi:id="_zdUNJyn8Eem0TatTBvHGfA" name="League">
+        <modelElement href="FootScoreApp2.uml#_yDodYCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNKCn8Eem0TatTBvHGfA" name="matchs">
+      <modelElement href="FootScoreApp2.uml#_yWZBcSn8Eem0TatTBvHGfA"/>
+      <visibility xmi:id="_zdUNKSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNKin8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zdUNKyn8Eem0TatTBvHGfA" name="Matche">
+        <modelElement href="FootScoreApp2.uml#_yD6KMCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNLCn8Eem0TatTBvHGfA" name="stadium">
+      <modelElement href="FootScoreApp2.uml#_yW5-sCn8Eem0TatTBvHGfA"/>
+      <visibility xmi:id="_zdUNLSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNLin8Eem0TatTBvHGfA" label="0..1" max="1"/>
+      <type xmi:id="_zdUNLyn8Eem0TatTBvHGfA" name="Stadium">
+        <modelElement href="FootScoreApp2.uml#_yEuCgCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNMCn8Eem0TatTBvHGfA" name="id_club">
+      <modelElement href="FootScoreApp2.uml#_yW7z4Cn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNMSn8Eem0TatTBvHGfA" name="PrimaryKey">
+        <modelElement href="FootScoreApp2.uml#_yW8a8Cn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zdUNMin8Eem0TatTBvHGfA" name="GeneratedValueMapping">
+        <modelElement href="FootScoreApp2.uml#_yW8a8Sn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNMyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNNCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNNSn8Eem0TatTBvHGfA" name="Long">
+        <modelElement href="FootScoreApp2.uml#_yR0DUSn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNNin8Eem0TatTBvHGfA" name="name_club">
+      <modelElement href="FootScoreApp2.uml#_yW9CACn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNNyn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yW9pECn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zdUNOCn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yW-QICn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNOSn8Eem0TatTBvHGfA" label="-"/>
+      <cardinality xmi:id="_zdUNOin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNOyn8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNPCn8Eem0TatTBvHGfA" name="nbr_champ">
+      <modelElement href="FootScoreApp2.uml#_yW-QJin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNPSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yW-3MCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNPin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNPyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNQCn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNQSn8Eem0TatTBvHGfA" name="date_creation">
+      <modelElement href="FootScoreApp2.uml#_yW-3MSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNQin8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yW_eQCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zdUNQyn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yW_eQSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNRCn8Eem0TatTBvHGfA" label="-"/>
+      <cardinality xmi:id="_zdUNRSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNRin8Eem0TatTBvHGfA" name="Date">
+        <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNRyn8Eem0TatTBvHGfA" name="city">
+      <modelElement href="FootScoreApp2.uml#_yXAFUCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNSCn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXAFUSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zdUNSSn8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yXBTcSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNSin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNSyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNTCn8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNTSn8Eem0TatTBvHGfA" name="clubLogo">
+      <modelElement href="FootScoreApp2.uml#_yXB6gCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNTin8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXB6gSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNTyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNUCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNUSn8Eem0TatTBvHGfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNUin8Eem0TatTBvHGfA" name="athletics">
+      <modelElement href="FootScoreApp2.uml#_yXDIoCn8Eem0TatTBvHGfA"/>
+      <visibility xmi:id="_zdUNUyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNVCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zdUNVSn8Eem0TatTBvHGfA" name="Athletic">
+        <modelElement href="FootScoreApp2.uml#_yDPb0Cn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNVin8Eem0TatTBvHGfA" name="played">
+      <modelElement href="FootScoreApp2.uml#_yXGzACn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNVyn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXHaECn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNWCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNWSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNWin8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNWyn8Eem0TatTBvHGfA" name="playedHome">
+      <modelElement href="FootScoreApp2.uml#_yXHaESn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNXCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXHaEin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNXSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNXin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNXyn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNYCn8Eem0TatTBvHGfA" name="won">
+      <modelElement href="FootScoreApp2.uml#_yXIBICn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNYSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXIBISn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNYin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNYyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNZCn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNZSn8Eem0TatTBvHGfA" name="wonHome">
+      <modelElement href="FootScoreApp2.uml#_yXIBIin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNZin8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXIoMCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNZyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNaCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNaSn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNain8Eem0TatTBvHGfA" name="drawn">
+      <modelElement href="FootScoreApp2.uml#_yXIoMSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNayn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXIoMin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNbCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNbSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNbin8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNbyn8Eem0TatTBvHGfA" name="drawnHome">
+      <modelElement href="FootScoreApp2.uml#_yXIoMyn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNcCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXJPQCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNcSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNcin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNcyn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNdCn8Eem0TatTBvHGfA" name="goals_for">
+      <modelElement href="FootScoreApp2.uml#_yXJPQSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNdSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXJPQin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNdin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNdyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNeCn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNeSn8Eem0TatTBvHGfA" name="goals_forHome">
+      <modelElement href="FootScoreApp2.uml#_yXJ2UCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNein8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXJ2USn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNeyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNfCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNfSn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNfin8Eem0TatTBvHGfA" name="goals_against">
+      <modelElement href="FootScoreApp2.uml#_yXJ2Uin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNfyn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXJ2Uyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNgCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNgSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNgin8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNgyn8Eem0TatTBvHGfA" name="goals_againstHome">
+      <modelElement href="FootScoreApp2.uml#_yXKdYCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNhCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXKdYSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNhSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNhin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNhyn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNiCn8Eem0TatTBvHGfA" name="points">
+      <modelElement href="FootScoreApp2.uml#_yXKdYin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNiSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXLEcCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNiin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNiyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNjCn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNjSn8Eem0TatTBvHGfA" name="pointsHome">
+      <modelElement href="FootScoreApp2.uml#_yXLEcSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNjin8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yXLEcin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNjyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNkCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdUNkSn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNkin8Eem0TatTBvHGfA" name="home_matchs">
+      <modelElement href="FootScoreApp2.uml#_yXM5oCn8Eem0TatTBvHGfA"/>
+      <visibility xmi:id="_zdUNkyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNlCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zdUNlSn8Eem0TatTBvHGfA" name="Matche">
+        <modelElement href="FootScoreApp2.uml#_yD6KMCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zdUNlin8Eem0TatTBvHGfA" name="away_matchs">
+      <modelElement href="FootScoreApp2.uml#_yXOHwCn8Eem0TatTBvHGfA"/>
+      <visibility xmi:id="_zdUNlyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNmCn8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zdUNmSn8Eem0TatTBvHGfA" name="Matche">
+        <modelElement href="FootScoreApp2.uml#_yD6KMCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zdUNmin8Eem0TatTBvHGfA" name="Club">
+      <modelElement href="FootScoreApp2.uml#_yGK0ACn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zdUNmyn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zdUNnCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yGK0BCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNnSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNnin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zdUNnyn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yGK0Ayn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zdUNoCn8Eem0TatTBvHGfA" name="Club">
+          <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zdUNoSn8Eem0TatTBvHGfA" name="getName_club">
+      <modelElement href="FootScoreApp2.uml#_yGK0BSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNoin8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yGK0Byn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNoyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNpCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zdUNpSn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yGK0Bin8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zdUNpin8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zdUNpyn8Eem0TatTBvHGfA" name="setName_club">
+      <modelElement href="FootScoreApp2.uml#_yGK0CCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNqCn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yGK0Cin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNqSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNqin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zdUNqyn8Eem0TatTBvHGfA" name="name_club">
+        <modelElement href="FootScoreApp2.uml#_yGK0CSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zdUNrCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdUNrSn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zdUNrin8Eem0TatTBvHGfA" name="getDate_creation">
+      <modelElement href="FootScoreApp2.uml#_yGK0Cyn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNryn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yGK0DCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNsCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNsSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zdUNsin8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yVozZCn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zdUNsyn8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zdUNtCn8Eem0TatTBvHGfA" name="resultMatche">
+      <modelElement href="FootScoreApp2.uml#_yRTF8Cn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUNtSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yRTtACn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNtin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNtyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zdUNuCn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yVozYyn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zdUNuSn8Eem0TatTBvHGfA" name="Character">
+          <modelElement href="FootScoreApp2.uml#_yVozYSn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zdUNuin8Eem0TatTBvHGfA" name="matche">
+        <modelElement href="FootScoreApp2.uml#_yRTF8Sn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zdUNuyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdUNvCn8Eem0TatTBvHGfA" name="Matche">
+          <modelElement href="FootScoreApp2.uml#_yD6KMCn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zdUNvSn8Eem0TatTBvHGfA" name="Club">
+      <modelElement href="FootScoreApp2.uml#_yVfpgSn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zdUNvin8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zdUNvyn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yVozYCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUNwCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUNwSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zdUNwin8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yVfpiyn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zdUNwyn8Eem0TatTBvHGfA" name="Club">
+          <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zdUNxCn8Eem0TatTBvHGfA" name="name_club">
+        <modelElement href="FootScoreApp2.uml#_yVfpgin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zdUNxSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdUNxin8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zdUNxyn8Eem0TatTBvHGfA" name="nbr_champ">
+        <modelElement href="FootScoreApp2.uml#_yVfpgyn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zdUNyCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdUNySn8Eem0TatTBvHGfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zdUNyin8Eem0TatTBvHGfA" name="date_creation">
+        <modelElement href="FootScoreApp2.uml#_yVfphCn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zdUNyyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdUNzCn8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zdUNzSn8Eem0TatTBvHGfA" name="city">
+        <modelElement href="FootScoreApp2.uml#_yVfphSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zdUNzin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdUNzyn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zdUN0Cn8Eem0TatTBvHGfA" name="league">
+        <modelElement href="FootScoreApp2.uml#_yVfphin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zdUN0Sn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdUN0in8Eem0TatTBvHGfA" name="League">
+          <modelElement href="FootScoreApp2.uml#_yDodYCn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zdUN0yn8Eem0TatTBvHGfA" name="stadium">
+        <modelElement href="FootScoreApp2.uml#_yVfphyn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zdUN1Cn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdUN1Sn8Eem0TatTBvHGfA" name="Stadium">
+          <modelElement href="FootScoreApp2.uml#_yEuCgCn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zdUN1in8Eem0TatTBvHGfA" name="clubLogo">
+        <modelElement href="FootScoreApp2.uml#_yVfpiCn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zdUN1yn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdUN2Cn8Eem0TatTBvHGfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zdUN2Sn8Eem0TatTBvHGfA" name="setDate_creation">
+      <modelElement href="FootScoreApp2.uml#_yVozZSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zdUN2in8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yVozZyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdUN2yn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zdUN3Cn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zdUN3Sn8Eem0TatTBvHGfA" name="date_creation">
+        <modelElement href="FootScoreApp2.uml#_yVozZin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zdUN3in8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdUN3yn8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zcH6bin8Eem0TatTBvHGfA" name="Matche" associationsOut="_zb0_YCn8Eem0TatTBvHGfA _zb-wYCn8Eem0TatTBvHGfA _zb-wYSn8Eem0TatTBvHGfA _zb-wYin8Eem0TatTBvHGfA _zcH6ZSn8Eem0TatTBvHGfA">
+    <modelElement href="FootScoreApp2.uml#_yD6KMCn8Eem0TatTBvHGfA"/>
+    <visualProperties xmi:id="_zcH6byn8Eem0TatTBvHGfA" position="946.0,40.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zcH6cCn8Eem0TatTBvHGfA" name="JPA1StyledElement">
+      <modelElement href="FootScoreApp2.uml#_yD6xQCn8Eem0TatTBvHGfA"/>
+    </stereotypes>
+    <visibility xmi:id="_zcH6cSn8Eem0TatTBvHGfA" label="+"/>
+    <attributes xmi:id="_zcH6cin8Eem0TatTBvHGfA" name="league">
+      <modelElement href="FootScoreApp2.uml#_yWZBWin8Eem0TatTBvHGfA"/>
+      <visibility xmi:id="_zcH6cyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6dCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcH6dSn8Eem0TatTBvHGfA" name="League">
+        <modelElement href="FootScoreApp2.uml#_yDodYCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcH6din8Eem0TatTBvHGfA" name="id_match">
+      <modelElement href="FootScoreApp2.uml#_yWZBXCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcH6dyn8Eem0TatTBvHGfA" name="PrimaryKey">
+        <modelElement href="FootScoreApp2.uml#_yWZBXSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcH6eCn8Eem0TatTBvHGfA" name="GeneratedValueMapping">
+        <modelElement href="FootScoreApp2.uml#_yWZBXin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6eSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6ein8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcH6eyn8Eem0TatTBvHGfA" name="Long">
+        <modelElement href="FootScoreApp2.uml#_yR0DUSn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcH6fCn8Eem0TatTBvHGfA" name="date_match">
+      <modelElement href="FootScoreApp2.uml#_yWZBXyn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcH6fSn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWZBYCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcH6fin8Eem0TatTBvHGfA" name="Annotations">
+        <modelElement href="FootScoreApp2.uml#_yWZBZSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6fyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6gCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcH6gSn8Eem0TatTBvHGfA" name="Date">
+        <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcH6gin8Eem0TatTBvHGfA" name="stadium">
+      <modelElement href="FootScoreApp2.uml#_yWZBbCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcH6gyn8Eem0TatTBvHGfA" name="JoinColumns">
+        <modelElement href="FootScoreApp2.uml#_yWZBbSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6hCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6hSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcH6hin8Eem0TatTBvHGfA" name="Stadium">
+        <modelElement href="FootScoreApp2.uml#_yEuCgCn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcH6hyn8Eem0TatTBvHGfA" name="clubs">
+      <modelElement href="FootScoreApp2.uml#_yWZBbin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcH6iCn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yWZBcCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6iSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6iin8Eem0TatTBvHGfA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zcH6iyn8Eem0TatTBvHGfA" name="Club">
+        <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcH6jCn8Eem0TatTBvHGfA" name="home_team">
+      <modelElement href="FootScoreApp2.uml#_yWZBdCn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcH6jSn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yWiLQCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcH6jin8Eem0TatTBvHGfA" name="JoinColumns">
+        <modelElement href="FootScoreApp2.uml#_yWiLQSn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6jyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6kCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcH6kSn8Eem0TatTBvHGfA" name="Club">
+        <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcH6kin8Eem0TatTBvHGfA" name="away_team">
+      <modelElement href="FootScoreApp2.uml#_yWiLQin8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcH6kyn8Eem0TatTBvHGfA" name="FetchStrategy">
+        <modelElement href="FootScoreApp2.uml#_yWiLQyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcH6lCn8Eem0TatTBvHGfA" name="JoinColumns">
+        <modelElement href="FootScoreApp2.uml#_yWiLRCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6lSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6lin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcH6lyn8Eem0TatTBvHGfA" name="Club">
+        <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcH6mCn8Eem0TatTBvHGfA" name="goals_home_team">
+      <modelElement href="FootScoreApp2.uml#_yWiLRSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcH6mSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWiLRin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6min8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6myn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcH6nCn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcH6nSn8Eem0TatTBvHGfA" name="goals_away_team">
+      <modelElement href="FootScoreApp2.uml#_yWiLRyn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcH6nin8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWiLSCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6nyn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6oCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcH6oSn8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zcH6oin8Eem0TatTBvHGfA" name="round">
+      <modelElement href="FootScoreApp2.uml#_yWiLSSn8Eem0TatTBvHGfA"/>
+      <stereotypes xmi:id="_zcH6oyn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yWiLSin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6pCn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6pSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <type xmi:id="_zcH6pin8Eem0TatTBvHGfA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zcH6pyn8Eem0TatTBvHGfA" name="Matche">
+      <modelElement href="FootScoreApp2.uml#_yD8mcCn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zcH6qCn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zcH6qSn8Eem0TatTBvHGfA" name="StyledElement">
+        <modelElement href="FootScoreApp2.uml#_yD9Ngyn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6qin8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6qyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zcH6rCn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yD9Ngin8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zcH6rSn8Eem0TatTBvHGfA" name="Matche">
+          <modelElement href="FootScoreApp2.uml#_yD6KMCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zcH6rin8Eem0TatTBvHGfA" name="Matche">
+      <modelElement href="FootScoreApp2.uml#_yUinMin8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zcH6ryn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zcH6sCn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yUinPCn8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6sSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6sin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zcH6syn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yUinPSn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zcH6tCn8Eem0TatTBvHGfA" name="Matche">
+          <modelElement href="FootScoreApp2.uml#_yD6KMCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zcH6tSn8Eem0TatTBvHGfA" name="date_match">
+        <modelElement href="FootScoreApp2.uml#_yUinMyn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH6tin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH6tyn8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH6uCn8Eem0TatTBvHGfA" name="league">
+        <modelElement href="FootScoreApp2.uml#_yUinNCn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH6uSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH6uin8Eem0TatTBvHGfA" name="League">
+          <modelElement href="FootScoreApp2.uml#_yDodYCn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH6uyn8Eem0TatTBvHGfA" name="home_team">
+        <modelElement href="FootScoreApp2.uml#_yUinNSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH6vCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH6vSn8Eem0TatTBvHGfA" name="Club">
+          <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH6vin8Eem0TatTBvHGfA" name="away_team">
+        <modelElement href="FootScoreApp2.uml#_yUinNin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH6vyn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH6wCn8Eem0TatTBvHGfA" name="Club">
+          <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH6wSn8Eem0TatTBvHGfA" name="goals_home_team">
+        <modelElement href="FootScoreApp2.uml#_yUinNyn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH6win8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH6wyn8Eem0TatTBvHGfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH6xCn8Eem0TatTBvHGfA" name="goals_away_team">
+        <modelElement href="FootScoreApp2.uml#_yUinOCn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH6xSn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH6xin8Eem0TatTBvHGfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH6xyn8Eem0TatTBvHGfA" name="round">
+        <modelElement href="FootScoreApp2.uml#_yUinOSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH6yCn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH6ySn8Eem0TatTBvHGfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zcH6yin8Eem0TatTBvHGfA" name="Matche">
+      <modelElement href="FootScoreApp2.uml#_yUinQCn8Eem0TatTBvHGfA"/>
+      <keywords xmi:id="_zcH6yyn8Eem0TatTBvHGfA" keyword="create"/>
+      <stereotypes xmi:id="_zcH6zCn8Eem0TatTBvHGfA" name="LegacyStyledElement">
+        <modelElement href="FootScoreApp2.uml#_yUrxIin8Eem0TatTBvHGfA"/>
+      </stereotypes>
+      <visibility xmi:id="_zcH6zSn8Eem0TatTBvHGfA" label="+"/>
+      <cardinality xmi:id="_zcH6zin8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zcH6zyn8Eem0TatTBvHGfA">
+        <modelElement href="FootScoreApp2.uml#_yUrxIyn8Eem0TatTBvHGfA"/>
+        <type xmi:id="_zcH60Cn8Eem0TatTBvHGfA" name="Matche">
+          <modelElement href="FootScoreApp2.uml#_yD6KMCn8Eem0TatTBvHGfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zcH60Sn8Eem0TatTBvHGfA" name="date_match">
+        <modelElement href="FootScoreApp2.uml#_yUinQSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH60in8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH60yn8Eem0TatTBvHGfA" name="Date">
+          <modelElement href="FootScoreApp2.uml#_yNxQ0Sn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH61Cn8Eem0TatTBvHGfA" name="stadium">
+        <modelElement href="FootScoreApp2.uml#_yUinQin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH61Sn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH61in8Eem0TatTBvHGfA" name="Stadium">
+          <modelElement href="FootScoreApp2.uml#_yEuCgCn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH61yn8Eem0TatTBvHGfA" name="league">
+        <modelElement href="FootScoreApp2.uml#_yUinQyn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH62Cn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH62Sn8Eem0TatTBvHGfA" name="League">
+          <modelElement href="FootScoreApp2.uml#_yDodYCn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH62in8Eem0TatTBvHGfA" name="home_team">
+        <modelElement href="FootScoreApp2.uml#_yUinRCn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH62yn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH63Cn8Eem0TatTBvHGfA" name="Club">
+          <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH63Sn8Eem0TatTBvHGfA" name="away_team">
+        <modelElement href="FootScoreApp2.uml#_yUinRSn8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH63in8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH63yn8Eem0TatTBvHGfA" name="Club">
+          <modelElement href="FootScoreApp2.uml#_yGBDACn8Eem0TatTBvHGfA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zcH64Cn8Eem0TatTBvHGfA" name="round">
+        <modelElement href="FootScoreApp2.uml#_yUinRin8Eem0TatTBvHGfA"/>
+        <cardinality xmi:id="_zcH64Sn8Eem0TatTBvHGfA" label="1" max="1" min="1"/>
+        <type xmi:id="_zcH64in8Eem0TatTBvHGfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
